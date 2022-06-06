@@ -1,0 +1,57 @@
+@import "../variables";
+
+.ubicacion1{
+    width: 600px;
+    margin: auto;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px);
+    border-radius: 6px;
+
+    h1{
+        text-align: $alinear;
+        padding-top: 30px;
+        font-family: $font1;
+        color: $color4;
+        font-size: 30px;
+    }
+
+    iframe{
+        width: 500px;
+        height: 400px;
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-left: 50px;
+        
+    }
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+

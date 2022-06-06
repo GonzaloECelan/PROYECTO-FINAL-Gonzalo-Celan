@@ -1,0 +1,2064 @@
+.carrusel-img {
+  height: 700px;
+  position: absolute; }
+  .carrusel-img .banner1 {
+    height: 700px;
+    object-fit: cover; }
+  .carrusel-img .banner2 {
+    height: 700px;
+    object-fit: cover; }
+  .carrusel-img .banner3 {
+    height: 700px;
+    object-fit: cover; }
+
+.banner4 {
+  width: 1120px;
+  height: 360px;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: black;
+  box-shadow: 10px 1px 30px rgba(4, 4, 4, 0.4);
+  transition: 2s; }
+  .banner4:hover {
+    transform: translateY(-10%); }
+  .banner4 img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    cursor: pointer; }
+
+.formulario {
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 30px 30px 30px 30px;
+  background-color: rgba(0, 0, 0, 0.588);
+  box-shadow: 7px 20px 20px #000;
+  backdrop-filter: blur(3px); }
+  .formulario h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: "Germania One", cursive; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+.navegador, header {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.piedepagina, footer {
+  width: 100%;
+  background-color: black;
+  box-shadow: 10px -2px 10px rgba(7, 7, 7, 0.5); }
+
+.boton, .contenido1 .comprar, .contenido2 .comprar, .contenido3 .comprar, .contenido4 .comprar, .contenido6 .comprar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: static; }
+
+.boton_, .comprar- button {
+  padding: 5px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-size: 15px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+
+footer {
+  margin-bottom: -20px; }
+  footer .grupo_ {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    padding-left: 200px;
+    padding-right: 300px;
+    position: static; }
+    footer .grupo_ .caja1 {
+      margin-top: 30px; }
+      footer .grupo_ .caja1 .logopie {
+        width: 220px;
+        height: 200px;
+        margin-left: 45px; }
+      footer .grupo_ .caja1 h2 {
+        font-family: "Berkshire Swash", cursive;
+        color: white;
+        font-size: 40px;
+        margin-top: -30px; }
+    footer .grupo_ .caja2 {
+      margin-top: 50px; }
+      footer .grupo_ .caja2 h3 {
+        font-family: "Germania One", cursive;
+        color: white;
+        font-size: 22px;
+        margin-left: 30px; }
+      footer .grupo_ .caja2 ul {
+        color: white;
+        list-style: none; }
+      footer .grupo_ .caja2 li {
+        line-height: 2.5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        cursor: pointer; }
+        footer .grupo_ .caja2 li:hover {
+          color: #E59866; }
+    footer .grupo_ .caja3 {
+      margin-top: 50px; }
+      footer .grupo_ .caja3 h3 {
+        font-family: "Germania One", cursive;
+        color: white;
+        font-size: 22px; }
+      footer .grupo_ .caja3 ul {
+        color: white;
+        list-style: none; }
+      footer .grupo_ .caja3 li {
+        line-height: 2;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px; }
+      footer .grupo_ .caja3 i {
+        color: white; }
+        footer .grupo_ .caja3 i:hover {
+          color: #E59866; }
+  footer .seguridad {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border-top: 1px solid white;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 10px;
+    background-color: black; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+.navegador, header {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.piedepagina, footer {
+  width: 100%;
+  background-color: black;
+  box-shadow: 10px -2px 10px rgba(7, 7, 7, 0.5); }
+
+.boton, .contenido1 .comprar, .contenido2 .comprar, .contenido3 .comprar, .contenido4 .comprar, .contenido6 .comprar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: static; }
+
+.boton_, .comprar- button {
+  padding: 5px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-size: 15px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+
+header .encabezado {
+  display: flex;
+  align-items: center; }
+  header .encabezado .logotipo {
+    width: 105px;
+    height: 90px;
+    padding-left: 100px; }
+  header .encabezado .nombre-empresa {
+    font-size: 30px;
+    font-family: "Berkshire Swash", cursive;
+    padding-top: 15px;
+    color: white; }
+
+header nav {
+  align-items: center;
+  margin-right: 200px; }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 20px; }
+  header nav a {
+    margin: 25px;
+    color: white;
+    font-family: "Germania One", cursive;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative; }
+    header nav a::after {
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: #E59866;
+      position: absolute;
+      bottom: -8px;
+      right: 50%;
+      transition: all 0.4s ease;
+      will-change: width; }
+    header nav a:hover::after {
+      width: 100%;
+      right: 0; }
+    header nav a:hover {
+      color: #E59866; }
+
+header .icono {
+  margin-right: 40px;
+  align-items: center; }
+  header .icono i {
+    color: white;
+    font-size: 20px;
+    margin: 20px; }
+    header .icono i:hover {
+      color: #E59866; }
+
+header #btn-menu {
+  display: none; }
+
+header .boton-menu {
+  display: none;
+  font-size: 25px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer; }
+  header .boton-menu:hover {
+    color: #E59866; }
+
+.box {
+  display: flex;
+  height: 900px; }
+  .box img {
+    width: 100%;
+    height: 100%; }
+  .box .contenedor2 {
+    width: 500px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.475);
+    border-radius: 4px;
+    box-shadow: 1px 10px 15px black;
+    transition: all 3s ease;
+    backdrop-filter: blur(1px); }
+    .box .contenedor2:hover {
+      transform: translateX(60%);
+      box-shadow: 1px 10px 15px black;
+      backdrop-filter: blur(1px); }
+  .box h3 {
+    text-align: center;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 4px solid white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .box p {
+    text-align: center;
+    line-height: 2.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: absolute;
+    color: white; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+.pedidos {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 1px 10px rgba(6, 6, 6, 0.5); }
+  .pedidos .productos {
+    color: white;
+    font-family: "Germania One", cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 3px;
+    position: absolute; }
+
+.contenido1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static; }
+  .contenido1 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido1 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido1 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido1 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido1 .contenedor .informacion {
+      text-align: center; }
+    .contenido1 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido1 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido1 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido1 .comprar:hover {
+    background-color: #E59866; }
+
+.contenido2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static;
+  margin-top: -30px; }
+  .contenido2 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido2 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido2 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido2 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido2 .contenedor .informacion {
+      text-align: center; }
+    .contenido2 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido2 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido2 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido2 .comprar:hover {
+    background-color: #E59866; }
+
+.contenido3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static;
+  margin-top: -30px;
+  margin-bottom: 100px; }
+  .contenido3 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido3 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido3 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido3 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido3 .contenedor .informacion {
+      text-align: center; }
+    .contenido3 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido3 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido3 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido3 .comprar:hover {
+    background-color: #E59866; }
+
+.contenido4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static;
+  margin-top: -130px;
+  margin-bottom: 50px; }
+  .contenido4 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido4 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido4 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido4 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido4 .contenedor .informacion {
+      text-align: center; }
+    .contenido4 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido4 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido4 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido4 .comprar:hover {
+    background-color: #E59866; }
+
+.off {
+  margin-left: 750px; }
+  .off button {
+    border: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1em 1em 3em;
+    position: relative;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: "Germania One", cursive;
+    border-radius: 12px; }
+  .off button svg {
+    position: absolute;
+    left: .4em;
+    width: 40px;
+    height: 40px;
+    transform: rotateY(-180deg);
+    transition: transform 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6); }
+  .off button:hover svg {
+    transform: rotateY(-180deg) translateX(-0.25em); }
+  .off button:active {
+    transform: scale(0.98); }
+
+.contenido5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static;
+  margin-top: -10px;
+  margin-bottom: 50px; }
+  .contenido5 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido5 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido5 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido5 .contenedor .descuento {
+      border-radius: 5px;
+      font-weight: bold;
+      text-align: center;
+      font-size: 14px;
+      position: absolute; }
+    .contenido5 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido5 .contenedor .informacion {
+      text-align: center; }
+    .contenido5 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido5 .contenedor .precio1 {
+      text-decoration: line-through;
+      font-size: 15px;
+      color: #605f5f;
+      margin-left: -9px; }
+    .contenido5 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+
+.comprar- button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms; }
+
+.comprar- button:hover {
+  color: #e8e8e8; }
+
+.comprar- button:hover::before {
+  width: 100%; }
+
+.contenido6 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static;
+  margin-top: -80px;
+  margin-bottom: 50px; }
+  .contenido6 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido6 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido6 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido6 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido6 .contenedor .informacion {
+      text-align: center; }
+    .contenido6 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido6 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido6 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido6 .comprar:hover {
+    background-color: #E59866; }
+
+.ubicacion1 {
+  width: 600px;
+  margin: auto;
+  height: 550px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.588);
+  box-shadow: 7px 20px 20px #000;
+  backdrop-filter: blur(3px);
+  border-radius: 6px; }
+  .ubicacion1 h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Germania One", cursive;
+    color: white;
+    font-size: 30px; }
+  .ubicacion1 iframe {
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 50px; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+.contenedor-img {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px;
+  gap: 10px; }
+  .contenedor-img .caja {
+    width: 100%;
+    height: 300px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 3px; }
+    .contenedor-img .caja:hover {
+      transform: scale(1.04);
+      box-shadow: 0 0 3em rgba(5, 5, 5, 0.6);
+      border-radius: 3px; }
+  .contenedor-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3px; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+.navegador, header {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.piedepagina, footer {
+  width: 100%;
+  background-color: black;
+  box-shadow: 10px -2px 10px rgba(7, 7, 7, 0.5); }
+
+.boton, .contenido1 .comprar, .contenido2 .comprar, .contenido3 .comprar, .contenido4 .comprar, .contenido6 .comprar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: static; }
+
+.boton_, .comprar- button {
+  padding: 5px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-size: 15px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+
+.navegador, header {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.piedepagina, footer {
+  width: 100%;
+  background-color: black;
+  box-shadow: 10px -2px 10px rgba(7, 7, 7, 0.5); }
+
+.boton, .contenido1 .comprar, .contenido2 .comprar, .contenido3 .comprar, .contenido4 .comprar, .contenido6 .comprar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: static; }
+
+.boton_, .comprar- button {
+  padding: 5px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-size: 15px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+
+@media screen and (max-width: 768px) {
+  header .encabezado {
+    display: flex;
+    align-items: center; }
+    header .encabezado .logotipo {
+      width: 100px;
+      height: 80px;
+      margin-left: -60px; }
+    header .encabezado .nombre-empresa {
+      font-size: 20px;
+      font-family: "Berkshire Swash", cursive;
+      padding-top: 17px;
+      color: white; }
+  header .menu {
+    align-items: center;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 30px; }
+    header .menu ul {
+      position: absolute;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      width: 768px;
+      transition: all 0.5s;
+      padding-bottom: 15px;
+      text-align: center; }
+      header .menu ul li {
+        transition: all 0.5s; }
+        header .menu ul li:hover {
+          transform: scale(1.2); }
+    header .menu a {
+      color: white;
+      font-family: "Germania One", cursive;
+      font-size: 16px;
+      text-decoration: none;
+      position: relative; }
+      header .menu a::after {
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: #E59866;
+        position: absolute;
+        bottom: -8px;
+        right: 50%;
+        transition: all 0.4s ease;
+        will-change: width; }
+      header .menu a:hover::after {
+        width: 100%;
+        right: 0; }
+      header .menu a:hover {
+        color: #E59866; }
+  header .icono {
+    margin-right: 40px;
+    align-items: center;
+    display: block; }
+    header .icono i {
+      color: white;
+      font-size: 15px;
+      margin: 15px; }
+      header .icono i:hover {
+        color: #E59866; }
+  header #btn-menu {
+    display: none; }
+  header .boton-menu {
+    display: none;
+    font-size: 25px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer; }
+    header .boton-menu:hover {
+      color: #E59866; }
+  footer {
+    margin-bottom: -20px; }
+    footer .grupo_ {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 70px;
+      position: static; }
+      footer .grupo_ .caja1 {
+        margin-top: 30px;
+        padding-left: 150px;
+        padding-right: 40px; }
+        footer .grupo_ .caja1 .logopie {
+          width: 110px;
+          height: 90px;
+          margin-left: -10px; }
+        footer .grupo_ .caja1 h2 {
+          font-family: "Berkshire Swash", cursive;
+          color: white;
+          font-size: 20px;
+          margin-top: 1px;
+          margin-left: 10px; }
+      footer .grupo_ .caja2 {
+        margin-top: 40px;
+        padding-left: 10px; }
+        footer .grupo_ .caja2 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px;
+          margin-left: 30px; }
+        footer .grupo_ .caja2 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja2 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 10px;
+          cursor: pointer; }
+          footer .grupo_ .caja2 li:hover {
+            color: #E59866; }
+      footer .grupo_ .caja3 {
+        margin-top: 40px;
+        padding-left: 200px; }
+        footer .grupo_ .caja3 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px; }
+        footer .grupo_ .caja3 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja3 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 15px;
+          margin-left: -30px; }
+        footer .grupo_ .caja3 i {
+          color: white; }
+          footer .grupo_ .caja3 i:hover {
+            color: #E59866; }
+    footer .seguridad {
+      width: 768px;
+      color: white;
+      margin-top: 150px;
+      font-size: 12px;
+      background-color: black; }
+  .pedidos {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    box-shadow: 0 1px 10px rgba(6, 6, 6, 0.5); }
+    .pedidos .productos {
+      color: white;
+      font-family: "Germania One", cursive;
+      font-size: 18px;
+      text-align: center;
+      margin-top: -2px;
+      position: absolute; }
+  .off {
+    margin-left: 250px;
+    margin-bottom: 20px; }
+    .off button {
+      font-size: 22px;
+      background-color: rgba(255, 255, 255, 0); }
+  .contenido1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px; }
+    .contenido1 .contenedor {
+      max-width: 150px;
+      margin-top: 20px; }
+    .contenido1 .tarjeta {
+      width: 150px; }
+      .contenido1 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+  .contenido2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px; }
+    .contenido2 .contenedor {
+      max-width: 150px;
+      margin-top: 30px; }
+    .contenido2 .tarjeta {
+      width: 150px; }
+      .contenido2 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+  .contenido3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px;
+    margin-bottom: 130px; }
+    .contenido3 .contenedor {
+      max-width: 150px;
+      margin-top: 30px; }
+    .contenido3 .tarjeta {
+      width: 150px; }
+      .contenido3 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+  .contenido4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px; }
+    .contenido4 .contenedor {
+      max-width: 150px;
+      margin-top: 5px; }
+    .contenido4 .tarjeta {
+      width: 150px; }
+      .contenido4 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+  .contenido5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px;
+    margin-top: 15px; }
+    .contenido5 .contenedor {
+      max-width: 150px;
+      margin-top: 5px; }
+    .contenido5 .tarjeta {
+      width: 150px; }
+      .contenido5 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+      .contenido5 .tarjeta .descuento {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 10px;
+        width: 50px; }
+      .contenido5 .tarjeta img {
+        width: 100%;
+        margin-top: 10px; }
+      .contenido5 .tarjeta .informacion {
+        text-align: center; }
+      .contenido5 .tarjeta h2 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; }
+      .contenido5 .tarjeta .precio1 {
+        text-decoration: line-through;
+        font-size: 15px;
+        color: #605f5f;
+        margin-left: 4px; }
+      .contenido5 .tarjeta span {
+        font-size: 17px;
+        margin-right: 170px; }
+  .contenido6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px; }
+    .contenido6 .contenedor {
+      max-width: 150px;
+      margin-top: 30px;
+      margin-bottom: -20px; }
+    .contenido6 .tarjeta {
+      width: 150px; }
+      .contenido6 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+  .banner4 {
+    width: 760px;
+    height: 210px; }
+  .carrusel-img {
+    height: 370px;
+    width: 768px;
+    display: block;
+    margin-top: 240px; }
+    .carrusel-img .banner1 {
+      height: 370px;
+      object-fit: cover; }
+    .carrusel-img .banner2 {
+      height: 370px;
+      object-fit: cover; }
+    .carrusel-img .banner3 {
+      height: 370px;
+      object-fit: cover; }
+  .box {
+    display: flex;
+    height: 800px;
+    background-color: #505050; }
+    .box img {
+      margin-top: 240px;
+      width: 768px;
+      height: 600px;
+      display: block; }
+    .box .contenedor2 {
+      max-width: 390px;
+      margin: auto;
+      margin-left: 10px;
+      height: 500px;
+      margin-top: 280px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.475);
+      border-radius: 4px;
+      box-shadow: 1px 10px 15px black;
+      backdrop-filter: blur(1px); }
+      .box .contenedor2:hover {
+        box-shadow: 1px 10px 15px black;
+        backdrop-filter: blur(1px);
+        transform: translateX(0%); }
+    .box h3 {
+      text-align: center;
+      font-family: "Berkshire Swash", cursive;
+      font-size: 35px;
+      font-weight: bold;
+      font-style: italic;
+      border-bottom: 3px solid white;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      color: white;
+      margin-left: 20px;
+      margin-right: 20px; }
+    .box p {
+      text-align: center;
+      line-height: 2;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 17px;
+      margin-left: 10px;
+      font-weight: bold;
+      position: absolute;
+      color: white; }
+  .formulario {
+    width: 390px;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 80px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px); }
+    .formulario h2 {
+      text-align: center;
+      color: white;
+      padding-bottom: 15px;
+      font-family: "Germania One", cursive; }
+  .ubicacion1 {
+    width: 500px;
+    margin: auto;
+    height: 550px;
+    margin-top: 300px;
+    margin-bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px);
+    border-radius: 6px; }
+    .ubicacion1 h1 {
+      text-align: center;
+      padding-top: 25px;
+      font-family: "Germania One", cursive;
+      color: white;
+      font-size: 22px; }
+    .ubicacion1 iframe {
+      width: 470px;
+      height: 400px;
+      margin-top: 30px;
+      border-radius: 10px;
+      margin-left: 15px; }
+  .contenedor-img {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 285px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+    gap: 15px; }
+    .contenedor-img .caja {
+      width: 100%;
+      height: 200px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      border-radius: 3px; }
+      .contenedor-img .caja:hover {
+        transform: scale(1.04);
+        box-shadow: 0 0 3em rgba(5, 5, 5, 0.6);
+        border-radius: 3px; }
+    .contenedor-img img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 3px; }
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100; }
+  .float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff; }
+  .my-float {
+    margin-top: 16px; } }
+
+@media screen and (max-width: 412px) {
+  header {
+    width: 100%; }
+    header .encabezado {
+      display: flex;
+      align-items: center; }
+      header .encabezado .logotipo {
+        width: 100px;
+        height: 80px;
+        margin-left: -50px; }
+      header .encabezado .nombre-empresa {
+        font-size: 20px;
+        font-family: "Berkshire Swash", cursive;
+        padding-top: 17px;
+        color: white;
+        margin-left: 10px; }
+    header .menu {
+      position: absolute;
+      margin-top: 50px;
+      font-size: 30px; }
+      header .menu ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 412px;
+        transition: all 0.5s;
+        padding-bottom: 15px;
+        margin-top: 20px; }
+        header .menu ul li {
+          text-align: center;
+          transition: all 0.5s; }
+          header .menu ul li:hover {
+            transform: scale(1.2); }
+      header .menu a {
+        color: white;
+        font-family: "Germania One", cursive;
+        font-size: 16px;
+        text-decoration: none;
+        position: relative; }
+        header .menu a::after {
+          content: "";
+          width: 0;
+          height: 2px;
+          background-color: #E59866;
+          position: absolute;
+          bottom: -8px;
+          right: 50%;
+          transition: all 0.4s ease;
+          will-change: width; }
+        header .menu a:hover::after {
+          width: 100%;
+          right: 0; }
+        header .menu a:hover {
+          color: #E59866; }
+    header .icono {
+      margin-right: 40px;
+      align-items: center;
+      display: none; }
+      header .icono i {
+        color: white;
+        font-size: 20px;
+        margin: 20px; }
+        header .icono i:hover {
+          color: #E59866; }
+    header #btn-menu {
+      display: none; }
+    header .boton-menu {
+      display: none;
+      font-size: 25px;
+      color: white;
+      margin-right: 10px;
+      cursor: pointer; }
+      header .boton-menu:hover {
+        color: #E59866; }
+  footer {
+    margin-bottom: -20px; }
+    footer .grupo_ {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-bottom: 70px;
+      position: static;
+      margin-left: -190px; }
+      footer .grupo_ .caja1 {
+        margin-top: 30px;
+        width: 370px; }
+        footer .grupo_ .caja1 .logopie {
+          width: 120px;
+          height: 100px;
+          margin-left: -15px; }
+        footer .grupo_ .caja1 h2 {
+          font-family: "Berkshire Swash", cursive;
+          color: white;
+          font-size: 25px;
+          margin-top: 1px;
+          margin-left: -50px; }
+      footer .grupo_ .caja2 {
+        margin-top: 10px;
+        width: 370px; }
+        footer .grupo_ .caja2 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px;
+          margin-left: 30px; }
+        footer .grupo_ .caja2 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja2 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 10px;
+          cursor: pointer; }
+          footer .grupo_ .caja2 li:hover {
+            color: #E59866; }
+      footer .grupo_ .caja3 {
+        margin-top: 10px;
+        margin-left: -160px; }
+        footer .grupo_ .caja3 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px; }
+        footer .grupo_ .caja3 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja3 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 15px;
+          margin-left: -30px; }
+        footer .grupo_ .caja3 i {
+          color: white; }
+          footer .grupo_ .caja3 i:hover {
+            color: #E59866; }
+    footer .seguridad {
+      width: 412px;
+      color: white;
+      margin-top: -40px;
+      font-size: 10px;
+      background-color: black;
+      margin-left: -0px; }
+  .pedidos {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 1px 10px rgba(6, 6, 6, 0.5); }
+    .pedidos .productos {
+      color: white;
+      font-family: "Germania One", cursive;
+      font-size: 20px;
+      text-align: center;
+      margin-top: -2px;
+      position: absolute; }
+  .off {
+    margin-left: 50px;
+    margin-bottom: 20px; }
+    .off button {
+      font-size: 22px;
+      background-color: rgba(255, 255, 255, 0); }
+  .contenido1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px;
+    margin-top: 20px; }
+    .contenido1 .contenedor {
+      max-width: 240px;
+      margin-top: 5px;
+      border-radius: 0px; }
+    .contenido1 .tarjeta {
+      width: 240px; }
+      .contenido1 .tarjeta img {
+        width: 230px;
+        height: 240px; }
+  .contenido2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .contenido2 .contenedor {
+      max-width: 240px;
+      margin-top: 5px;
+      border-radius: 0px; }
+    .contenido2 .tarjeta {
+      width: 240px; }
+      .contenido2 .tarjeta img {
+        width: 230px;
+        height: 240px; }
+  .contenido3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px;
+    margin-bottom: 130px; }
+    .contenido3 .contenedor {
+      max-width: 240px;
+      margin-top: 5px;
+      border-radius: 0px; }
+    .contenido3 .tarjeta {
+      width: 240px; }
+      .contenido3 .tarjeta img {
+        width: 230px;
+        height: 240px; }
+  .contenido4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px; }
+    .contenido4 .contenedor {
+      max-width: 240px;
+      margin-top: 5px;
+      border-radius: 0px; }
+    .contenido4 .tarjeta {
+      width: 240px; }
+      .contenido4 .tarjeta img {
+        width: 230px;
+        height: 240px; }
+  .contenido5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px; }
+    .contenido5 .contenedor {
+      max-width: 240px;
+      margin-top: 5px;
+      border-radius: 0px; }
+    .contenido5 .tarjeta {
+      width: 240px; }
+      .contenido5 .tarjeta img {
+        width: 230px;
+        height: 240px; }
+      .contenido5 .tarjeta .descuento {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 10px;
+        width: 50px; }
+      .contenido5 .tarjeta img {
+        width: 100%;
+        margin-top: 10px; }
+      .contenido5 .tarjeta .informacion {
+        text-align: center; }
+      .contenido5 .tarjeta h2 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; }
+      .contenido5 .tarjeta .precio1 {
+        text-decoration: line-through;
+        font-size: 15px;
+        color: #605f5f;
+        margin-left: 4px; }
+      .contenido5 .tarjeta span {
+        font-size: 17px;
+        margin-right: 170px; }
+  .contenido6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px; }
+    .contenido6 .contenedor {
+      max-width: 240px;
+      margin-top: 35px;
+      border-radius: 0px; }
+    .contenido6 .tarjeta {
+      width: 240px; }
+      .contenido6 .tarjeta img {
+        width: 240px;
+        height: 240px; }
+  .formulario {
+    width: 390px;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 80px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px); }
+    .formulario h2 {
+      text-align: center;
+      color: white;
+      padding-bottom: 15px;
+      font-family: "Germania One", cursive; }
+  .contenedor-img {
+    width: 100%;
+    max-width: 390px;
+    margin: auto;
+    margin-top: 285px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 200px;
+    gap: 15px; }
+    .contenedor-img .caja {
+      width: 100%;
+      height: 200px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      border-radius: 3px; }
+      .contenedor-img .caja:hover {
+        transform: scale(1.04);
+        box-shadow: 0 0 3em rgba(5, 5, 5, 0.6);
+        border-radius: 3px; }
+    .contenedor-img img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 3px; }
+  .banner4 {
+    width: 400px;
+    height: 150px; }
+  .carrusel-img {
+    height: 350px;
+    width: 412px;
+    display: block;
+    margin-top: 240px; }
+    .carrusel-img .banner1 {
+      height: 350px;
+      object-fit: cover; }
+    .carrusel-img .banner2 {
+      height: 350px;
+      object-fit: cover; }
+    .carrusel-img .banner3 {
+      height: 350px;
+      object-fit: cover; }
+  .box {
+    display: flex;
+    height: 800px;
+    background-color: #505050; }
+    .box img {
+      width: 39px;
+      height: 800px;
+      display: none; }
+    .box .contenedor2 {
+      max-width: 390px;
+      margin: auto;
+      margin-left: 10px;
+      height: 500px;
+      margin-top: 270px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.475);
+      border-radius: 4px;
+      box-shadow: 1px 10px 15px black;
+      backdrop-filter: blur(1px); }
+      .box .contenedor2:hover {
+        box-shadow: 1px 10px 15px black;
+        backdrop-filter: blur(1px);
+        transform: translateX(0%); }
+    .box h3 {
+      text-align: center;
+      font-family: "Berkshire Swash", cursive;
+      font-size: 35px;
+      font-weight: bold;
+      font-style: italic;
+      border-bottom: 3px solid white;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      color: white;
+      margin-left: 20px;
+      margin-right: 20px; }
+    .box p {
+      text-align: center;
+      line-height: 2;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 17px;
+      margin-left: 10px;
+      font-weight: bold;
+      position: absolute;
+      color: white; }
+  .ubicacion1 {
+    width: 390px;
+    margin: auto;
+    height: 550px;
+    margin-top: 300px;
+    margin-bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px);
+    border-radius: 6px; }
+    .ubicacion1 h1 {
+      text-align: center;
+      padding-top: 20px;
+      font-family: "Germania One", cursive;
+      color: white;
+      font-size: 22px; }
+    .ubicacion1 iframe {
+      width: 360px;
+      height: 400px;
+      margin-top: 30px;
+      border-radius: 10px;
+      margin-left: 15px; } }
+
+@media screen and (max-width: 375px) {
+  header {
+    width: 375px; }
+    header .encabezado {
+      display: flex;
+      align-items: center; }
+      header .encabezado .logotipo {
+        width: 100px;
+        height: 80px;
+        margin-left: -60px; }
+      header .encabezado .nombre-empresa {
+        font-size: 20px;
+        font-family: "Berkshire Swash", cursive;
+        padding-top: 15px;
+        color: white; }
+    header .menu {
+      align-items: center;
+      position: absolute;
+      font-size: 30px; }
+      header .menu ul {
+        position: absolute;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 375px;
+        transition: all 0.5s;
+        padding-bottom: 18px;
+        margin-top: 20px; }
+        header .menu ul li {
+          text-align: center;
+          transition: all 0.5s; }
+          header .menu ul li:hover {
+            transform: scale(1.2); }
+      header .menu a {
+        color: white;
+        font-family: "Germania One", cursive;
+        font-size: 16px;
+        text-decoration: none;
+        position: relative; }
+        header .menu a::after {
+          content: "";
+          width: 0;
+          height: 2px;
+          background-color: #E59866;
+          position: absolute;
+          bottom: -8px;
+          right: 50%;
+          transition: all 0.4s ease;
+          will-change: width; }
+        header .menu a:hover::after {
+          width: 100%;
+          right: 0; }
+        header .menu a:hover {
+          color: #E59866; }
+    header .icono {
+      margin-right: 40px;
+      align-items: center;
+      display: none; }
+      header .icono i {
+        color: white;
+        font-size: 20px;
+        margin: 20px; }
+        header .icono i:hover {
+          color: #E59866; }
+    header #btn-menu {
+      display: none; }
+    header .boton-menu {
+      display: none;
+      font-size: 25px;
+      color: white;
+      margin-right: 10px;
+      cursor: pointer; }
+      header .boton-menu:hover {
+        color: #E59866; }
+  footer {
+    margin-bottom: -20px; }
+    footer .grupo_ {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-bottom: 70px;
+      position: static;
+      margin-left: -190px; }
+      footer .grupo_ .caja1 {
+        margin-top: 30px;
+        width: 370px; }
+        footer .grupo_ .caja1 .logopie {
+          width: 120px;
+          height: 100px;
+          margin-left: -20px; }
+        footer .grupo_ .caja1 h2 {
+          font-family: "Berkshire Swash", cursive;
+          color: white;
+          font-size: 25px;
+          margin-top: 1px;
+          margin-left: -65px; }
+      footer .grupo_ .caja2 {
+        margin-top: 10px;
+        width: 370px; }
+        footer .grupo_ .caja2 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px;
+          margin-left: 30px; }
+        footer .grupo_ .caja2 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja2 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 10px;
+          cursor: pointer; }
+          footer .grupo_ .caja2 li:hover {
+            color: #E59866; }
+      footer .grupo_ .caja3 {
+        margin-top: 10px;
+        margin-left: -160px; }
+        footer .grupo_ .caja3 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px; }
+        footer .grupo_ .caja3 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja3 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 15px;
+          margin-left: -30px; }
+        footer .grupo_ .caja3 i {
+          color: white; }
+          footer .grupo_ .caja3 i:hover {
+            color: #E59866; }
+    footer .seguridad {
+      width: 375px;
+      color: white;
+      margin-top: -40px;
+      font-size: 10px;
+      background-color: black;
+      margin-left: -0px; }
+  .pedidos {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    box-shadow: 0 1px 10px rgba(6, 6, 6, 0.5); }
+    .pedidos .productos {
+      color: white;
+      font-family: "Germania One", cursive;
+      font-size: 17px;
+      text-align: center;
+      margin-top: -3px;
+      position: absolute; }
+  .off {
+    margin-left: 50px;
+    margin-bottom: 20px; }
+    .off button {
+      font-size: 20px;
+      background-color: rgba(255, 255, 255, 0); }
+  .contenido1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px;
+    margin-top: 20px; }
+    .contenido1 .contenedor {
+      max-width: 200px;
+      margin-top: 5px; }
+    .contenido1 .tarjeta {
+      width: 200px; }
+      .contenido1 .tarjeta img {
+        width: 200px;
+        height: 200px; }
+  .contenido2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .contenido2 .contenedor {
+      max-width: 200px;
+      margin-top: 5px; }
+    .contenido2 .tarjeta {
+      width: 200px; }
+      .contenido2 .tarjeta img {
+        width: 200px;
+        height: 200px; }
+  .contenido3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px;
+    margin-bottom: 130px; }
+    .contenido3 .contenedor {
+      max-width: 200px;
+      margin-top: 5px; }
+    .contenido3 .tarjeta {
+      width: 200px; }
+      .contenido3 .tarjeta img {
+        width: 200px;
+        height: 200px; }
+  .contenido4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px; }
+    .contenido4 .contenedor {
+      max-width: 200px;
+      margin-top: 5px; }
+    .contenido4 .tarjeta {
+      width: 200px; }
+      .contenido4 .tarjeta img {
+        width: 200px;
+        height: 200px; }
+  .contenido5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px; }
+    .contenido5 .contenedor {
+      max-width: 200px;
+      margin-top: 5px; }
+    .contenido5 .tarjeta {
+      width: 200px; }
+      .contenido5 .tarjeta img {
+        width: 200px;
+        height: 200px; }
+      .contenido5 .tarjeta .descuento {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 10px;
+        width: 50px; }
+      .contenido5 .tarjeta img {
+        width: 100%;
+        margin-top: 10px; }
+      .contenido5 .tarjeta .informacion {
+        text-align: center; }
+      .contenido5 .tarjeta h2 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; }
+      .contenido5 .tarjeta .precio1 {
+        text-decoration: line-through;
+        font-size: 15px;
+        color: #605f5f;
+        margin-left: 4px; }
+      .contenido5 .tarjeta span {
+        font-size: 17px;
+        margin-right: 170px; }
+  .contenido6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 70px; }
+    .contenido6 .contenedor {
+      max-width: 200px;
+      margin-top: 5px; }
+    .contenido6 .tarjeta {
+      width: 200px; }
+      .contenido6 .tarjeta img {
+        width: 200px;
+        height: 200px; }
+  .formulario {
+    width: 360px;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 80px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px); }
+    .formulario h2 {
+      text-align: center;
+      color: white;
+      padding-bottom: 15px;
+      font-family: "Germania One", cursive; }
+  .contenedor-img {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 285px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 200px;
+    gap: 15px; }
+    .contenedor-img .caja {
+      width: 100%;
+      height: 200px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      border-radius: 3px; }
+      .contenedor-img .caja:hover {
+        transform: scale(1.04);
+        box-shadow: 0 0 3em rgba(5, 5, 5, 0.6);
+        border-radius: 3px; }
+    .contenedor-img img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 3px; }
+  .banner4 {
+    width: 370px;
+    height: 130px; }
+  .carrusel-img {
+    height: 330px;
+    width: 375px;
+    display: block;
+    margin-top: 240px; }
+    .carrusel-img .banner1 {
+      height: 330px;
+      object-fit: cover; }
+    .carrusel-img .banner2 {
+      height: 330px;
+      object-fit: cover; }
+    .carrusel-img .banner3 {
+      height: 330px;
+      object-fit: cover; }
+  .box {
+    display: flex;
+    height: 800px;
+    background-color: #505050; }
+    .box img {
+      width: 375px;
+      height: 800px;
+      display: none; }
+    .box .contenedor2 {
+      max-width: 350px;
+      margin: auto;
+      margin-left: 10px;
+      height: 500px;
+      margin-top: 270px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.475);
+      border-radius: 4px;
+      box-shadow: 1px 10px 15px black;
+      backdrop-filter: blur(1px); }
+      .box .contenedor2:hover {
+        box-shadow: 1px 10px 15px black;
+        backdrop-filter: blur(1px);
+        transform: translateX(0%); }
+    .box h3 {
+      text-align: center;
+      font-family: "Berkshire Swash", cursive;
+      font-size: 35px;
+      font-weight: bold;
+      font-style: italic;
+      border-bottom: 3px solid white;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      color: white;
+      margin-left: 20px;
+      margin-right: 20px; }
+    .box p {
+      text-align: center;
+      line-height: 2;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 17px;
+      margin-left: 10px;
+      font-weight: bold;
+      position: absolute;
+      color: white; }
+  .ubicacion1 {
+    width: 370px;
+    margin: auto;
+    height: 550px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px);
+    border-radius: 6px; }
+    .ubicacion1 h1 {
+      text-align: center;
+      padding-top: 20px;
+      font-family: "Germania One", cursive;
+      color: white;
+      font-size: 20px; }
+    .ubicacion1 iframe {
+      width: 340px;
+      height: 400px;
+      margin-top: 30px;
+      border-radius: 10px;
+      margin-left: 15px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
